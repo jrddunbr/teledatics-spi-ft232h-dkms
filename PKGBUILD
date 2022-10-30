@@ -7,7 +7,7 @@ url=""
 license=('BSD'  'GPL2')
 depends=('dkms')
 source=("${srcdir}/${pkgname}::git+https://github.com/teledatics/spi-ft232h-dkms#commit=1acaf7014185953878428d5395daf828347e8c03" "dkms.conf" "60-spi-ft232h-dkms.rules")
-sha256sums=('SKIP' '7487ef3f4613ce60e5205fd5c30687b3e0af7c7fdf1233f71e10b5d8e3b08630' '8f63da0cff7aa655c3cdfa1c4cae6a9fcdd1b1c381cd7ff388d5debf45ed5929')
+sha256sums=('SKIP' 'b3ef9f7d0557317a42cfbe61081393642b3f54af3960ecd38341f52d02ef7bb9' '8f63da0cff7aa655c3cdfa1c4cae6a9fcdd1b1c381cd7ff388d5debf45ed5929')
 
 prepare() {
     # Disables (blacklists) the FTDI SIO driver. This will disable usage of the standalone mode and serial debugger as a side effect

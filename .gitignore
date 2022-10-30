@@ -2,5 +2,5 @@
 *.iml
 src
 pkg
-teledatics-spi-ft232h-dkms-git
+teledatics-spi-ft232h-dkms
 *.pkg.tar.*
